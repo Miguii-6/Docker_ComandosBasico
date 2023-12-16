@@ -70,3 +70,10 @@ Encuentra la dirección IP del contenedor 'dam_ubu2' utilizando un método simil
 
 Al cerrar la terminal el contenedor sigue activo, en mi caso al estar en el portatil se puede comprobar en la app de `Docker Desktop` pero tambien pouedes confirmarlo abriendo una nueva terminal y poner:
 - docker ps
+
+## 7 ¿Cuanta memoria en el disco duro ocupaste?
+Para ver lo que te ocupa en el disco duro tienes que usar:
+
+- docker system df -V
+
+El -V es para que sea más especefico.En mi ejemplo dam_ubu1 me ocupa 45.8
