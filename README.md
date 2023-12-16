@@ -65,3 +65,8 @@ Ejecuta este comando en la terminal de Docker para crear el segundo contenedor:
 
 2. Hacer ping entre los contenedores: <br>
 Encuentra la dirección IP del contenedor 'dam_ubu2' utilizando un método similar al utilizado previamente. Una vez tengas esa dirección IP, desde el contenedor 'dam_ubu1', intenta hacer ping al 'dam_ubu2' utilizando su dirección IP. Esto te permitirá confirmar si hay conectividad entre los contenedores.
+
+## 6 Sal del terminal, ¿que ocurrió con el contenedor?
+
+Al cerrar la terminal el contenedor sigue activo, en mi caso al estar en el portatil se puede comprobar en la app de `Docker Desktop` pero tambien pouedes confirmarlo abriendo una nueva terminal y poner:
+- docker ps
