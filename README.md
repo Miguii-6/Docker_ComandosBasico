@@ -44,3 +44,13 @@ Y para comprobar si se creó se usa:
 |-------|-------|-------|-------|-------|-------|-------|
 |3ffb933c4095|ubuntu|"/bin/bash"|2 minutes ago| Exited (0) About a minute ago| |dam_ubu1|
 
+## 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+Dentro del contenedor 'dam_ubu1', instalas las herramientas necesarias:
+
+- apt update
+- apt install net-tools
+- apt install iputils-ping
+
+Miramos nuestra ip con `ifconfig`
+
+Y ahora para hacer ping usaremos el comando `ping google.com`, de esta manera hacemos ping con google, para parar el ping le daremos al Ctrl + C
