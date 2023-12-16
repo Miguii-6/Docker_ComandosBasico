@@ -54,3 +54,14 @@ Dentro del contenedor 'dam_ubu1', instalas las herramientas necesarias:
 Miramos nuestra ip con `ifconfig`
 
 Y ahora para hacer ping usaremos el comando `ping google.com`, de esta manera hacemos ping con google, para parar el ping le daremos al Ctrl + C
+
+## 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
+
+1. Crear un contenedor 'dam_ubu2':
+<br>
+Ejecuta este comando en la terminal de Docker para crear el segundo contenedor:
+
+- docker run -di --name dam_ubu2 ubuntu 
+
+2. Hacer ping entre los contenedores: <br>
+Encuentra la dirección IP del contenedor 'dam_ubu2' utilizando un método similar al utilizado previamente. Una vez tengas esa dirección IP, desde el contenedor 'dam_ubu1', intenta hacer ping al 'dam_ubu2' utilizando su dirección IP. Esto te permitirá confirmar si hay conectividad entre los contenedores.
